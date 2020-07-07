@@ -1,7 +1,7 @@
 GET http://localhost:3000/api/entities HTTP/1.1
 content-type: application/json
 ###
-GET http://localhost:3000/api/entities/1 HTTP/1.1
+GET http://localhost:3000/api/entities/3 HTTP/1.1
 content-type: application/json
 ###
 POST http://localhost:3000/api/entities HTTP/1.1
