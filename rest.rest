@@ -1,0 +1,21 @@
+GET http://localhost:3000/api/entities HTTP/1.1
+content-type: application/json
+###
+GET http://localhost:3000/api/entities/1 HTTP/1.1
+content-type: application/json
+###
+POST http://localhost:3000/api/entities HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Ne"
+}
+###
+PUT http://localhost:3000/api/entities/1 HTTP/1.1
+content-type: application/json
+
+{
+    "name":"New Name for 1"
+}
+###
+GET http://www.icdi.co.za HTTP/1.1

@@ -1,0 +1,7 @@
+{
+    "name":"SSS Web API: production",
+    "port":"3000",
+    "mail":{
+        "host": "client-mail-server"
+    }
+}
