@@ -28,7 +28,7 @@ let appName = config.get("name");
 let msg = `${appName} is up and running`;
 app.get("/", (req, res) => {
   if (app.get("env") === "development") {
-    res.send(msg);
+    res.send(msg + "<p>" + JSON.stringify(config) + "</p>");
   } else {
     res.send(msg);
   }
